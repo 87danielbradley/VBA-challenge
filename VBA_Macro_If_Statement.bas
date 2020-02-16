@@ -173,6 +173,10 @@ Range("Q4").Value = TickerVol
 Range("R4").Value = MaxVol
 
 
+Range("L:L").Select
+Selection.NumberFormat = "0.00%"
+Range("R2,R3").Select
+Selection.NumberFormat = "0.00%"
 
 
 
